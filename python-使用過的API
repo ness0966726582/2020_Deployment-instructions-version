@@ -1,4 +1,8 @@
-#處理進度條pip install progressbar2 
+#MySQL安裝-參考https://www.w3schools.com/python/python_mysql_getstarted.asp
+pip3 install mysql-connector-python
+
+#處理進度條
+pip3 install progressbar2 
 
 ######關閉DHCP SERVER(避免不斷發送IP)###
 sudo apt install -y isc-dhcp-server
